@@ -1,4 +1,4 @@
 # WebPagePersonal
-Mi pagina web personal
-Aqui está exhibida 
+My personal webpage
+Here is displayed:
 https://web-page-personal.now.sh/
