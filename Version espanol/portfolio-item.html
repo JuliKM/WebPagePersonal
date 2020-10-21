@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevJuli Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!--  fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">Mis servicios</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">Sobre mi</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">Mis trabajos</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                El <strong>pianito virtual</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">El primer proyecto para mostrar</p>
+            <img src="https://i.imgur.com/r3JGsUO.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <a href="https://pianito.julikm.vercel.app/">Ir al proyecto</a>
+            <p>Piano armado en base a los tutoriales de Javascript30, con modificaciones. Realizado con HTML, CSS, y Javascript</p>
+            <img src="img/portfolio-details.jpg" alt="">
+            <p>Próximamente pienso cambiar las teclas para hacerlas mas parecidas a un teclado de piano y agregar las teclas negras (bemoles y sostenidos)</p>
+            <p></p>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:JuliKM@gmail.com" class ="footer__link">JuliKM@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/JuliKM">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/julieta-kogan-moyano-b267772a">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/JuliKM3">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+             
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
