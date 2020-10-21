@@ -1,4 +1,4 @@
-# WebPagePersonal
+# PersonalWebPage
 My personal webpage </br>
 Here is displayed:
 https://web-page-personal.now.sh/
