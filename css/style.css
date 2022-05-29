@@ -13,7 +13,7 @@
 
     --clr-light:#fff;
     --clr-dark:#303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #114133;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -342,6 +342,7 @@ header{
             "subtitle img"
             "text img";
         grid-column-gap: 2em;
+        background: var(--clr-light);
     }
 
     .section__title--about{
@@ -414,6 +415,7 @@ header{
     text-align: center;
     padding: 2.5em 0;
     font-size:var(--fs-h3);
+    color: var(--clr-light);
 
 }
 
